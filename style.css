@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+}
+
+.app {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 10px;
+  overflow-x: auto;
+}
+
+.menu button {
+  padding: 1px 10px;
+  border: 2px solid #4FA9CF;
+  background: transparent;
+  color: #4FA9CF;
+  border-radius: 12px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* hover */
+.menu button:hover {
+  background: #4FA9CF;
+  color: white;
+  box-shadow: 0 4px 12px rgba(79, 169, 207, 0.5);
+}
+
+/* ativo */
+.menu button.active {
+  background: #4FA9CF;
+  color: white;
+}
+input {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+}
+
+.calc {
+  padding: 10px;
+  background: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.result {
+  margin-top: 15px;
+  font-weight: bold;
+}
